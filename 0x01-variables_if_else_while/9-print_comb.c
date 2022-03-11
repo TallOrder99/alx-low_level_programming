@@ -1,16 +1,19 @@
 #include <stdio.h>
 /**
- * main - prints the alphabet in lowercase, and then in uppercase,
+ * main - print all possible combinations of single-digit numbers,
  * followed by a new line
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int ch;
+	int a;
 
-	for (ch = 0; ch <= 9; ch++)
-		putchar(ch,", ");
+	for (a = 0; a < 10; a++)
+		putchar(a);
+	putchar(',');
+	putchar(' ');
 	putchar('\n');
+
 	return (0);
 }
