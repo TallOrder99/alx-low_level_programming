@@ -10,13 +10,13 @@ int main(void)
 	int i;
 	unsigned long  int sum = 0;
 
-	for (i = 2; i <= 98; i++)
+	for (i = 2; i <= 99; i++)
 	{
 		sum = x1 + x2;
 		x1 = x2;
 		x2 = sum;
-    printf("%lu", sum);
-		if (i  < 98)
+		printf("%lu", sum);
+		if (i  <= 98)
 			printf(", ");
 		}
 	printf("\n");
