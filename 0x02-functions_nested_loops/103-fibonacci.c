@@ -14,7 +14,7 @@ int main(void)
 	int i;
 	unsigned long  int sum = 0;
 
-	for (i = 2; i < 4000000; i++)
+	for (i = 2; i < 35; i++)
 	{
 		sum = x1 + x2;
 		x1 = x2;
@@ -25,6 +25,6 @@ int main(void)
 		}
 
 	}
-	printf("%ld\n", "4613732");
+	printf("%ld\n", total);
 	return (0);
 }
