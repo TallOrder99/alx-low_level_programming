@@ -1,18 +1,15 @@
 #include "main.h"
 /**
- *print_alphabet_x10 - print lowercase alphabets 10 times
- */
-void print_alphabet_x10(void)
+ *print_alphabet - writes the lower alphabet c to stdout
+*/
+void print_alphabet(void)
 {
-	int a = 0;
-	char b;
+	char c;
 
-	for (a = 0; a < 10; a++)
+	for (c = 97; c <= 122; c++)
 	{
-		for (b = 97; b <= 122; b++)
-		{
-			_putchar(b);
-		}
-		_putchar('\n');
+		_putchar(c);
 	}
+	_putchar('\n');
+
 }
