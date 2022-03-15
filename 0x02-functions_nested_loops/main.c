@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- *main - count characters and print as string result
- *Return: zero
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	print_alphabet();
-	return (0);
+    print_alphabet();
+    return (0);
 }
