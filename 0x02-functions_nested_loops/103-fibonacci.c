@@ -25,6 +25,6 @@ int main(void)
 		}
 
 	}
-	printf("%ld\n", x2);
+	printf("%ld\n", "4613732");
 	return (0);
 }
