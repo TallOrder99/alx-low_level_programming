@@ -1,4 +1,4 @@
-#include "coding_c.h"
+#include "main.h"
 /**
  *main - count characters and print as string result
  *Return: zero
