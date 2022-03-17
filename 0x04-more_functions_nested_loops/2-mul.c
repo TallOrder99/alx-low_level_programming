@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * mul - multiply two numbers
  * @a: first int value
